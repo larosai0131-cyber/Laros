@@ -1,0 +1,50 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: #0b1e33;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  color: #6bb5ff;
+  margin-top: -10px;
+}
+
+.input-card {
+  background: #132b47;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.input-card input,
+.input-card textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #1f8bff;
+  color: white;
+}
+
+.output {
+  margin-top: 25px;
+  white-space: pre-wrap;
+  background: #0d2238;
+  padding: 15px;
+  border-radius: 12px;
+}
