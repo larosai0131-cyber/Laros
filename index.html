@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laros 文案引擎 CopyEngine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Laros 文案引擎 CopyEngine</h1>
+    <p class="subtitle">AI 生成｜行銷級別｜台灣市場最懂的文案引擎</p>
+  </header>
+
+  <main>
+    <div class="input-card">
+      <label>產品名稱</label>
+      <input id="product" placeholder="輸入產品名稱" />
+
+      <label>產品描述</label>
+      <textarea id="description" placeholder="描述產品功能、特色等"></textarea>
+
+      <label>目標客群</label>
+      <input id="audience" placeholder="例如：上班族、學生、媽媽族群" />
+
+      <label>使用平台</label>
+      <input id="platform" placeholder="IG / FB / TikTok / 官網" />
+
+      <label>文案語氣</label>
+      <input id="tone" placeholder="溫暖、科技、可愛、專業" />
+
+      <button id="generate">產生文案</button>
+    </div>
+
+    <div id="output" class="output"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
